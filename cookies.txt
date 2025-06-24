@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+ugbekun2.metaspaceconsult.com	TRUE	/	FALSE	1999999999	rm_session	2d0j3g7rcv99j1vuu7c7lp79v3lk4jsl
+ugbekun2.metaspaceconsult.com	TRUE	/	FALSE	1999999999	school_cookie_name	cb72ff077a406f08ee1ba84c93cabeb6
+ugbekun2.metaspaceconsult.com	TRUE	/	FALSE	1999999999	SameSite	Strict
+

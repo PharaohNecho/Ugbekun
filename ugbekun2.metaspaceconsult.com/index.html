@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from ugbekun2.metaspaceconsult.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Jun 2025 20:32:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ugbekun School Management System</title>
+    <meta name="keyword" content="Ugbekun " />
+    <meta name="description" content="" />
+    <meta name="author" content="Ugbekun School Management System">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/frontend/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/frontend/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/frontend/css/animate.css" />
+    <link rel="stylesheet" href="assets/frontend/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/frontend/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="assets/vendor/sweetalert/sweetalert-custom.css">
+    <link rel="stylesheet" href="assets/frontend/css/saas_main.css" />
+
+    <!-- Google Analytics --> 
+    
+    <!-- Theme Color Options -->
+    <script type="text/javascript">
+        document.documentElement.style.setProperty('--thm-primary', '#060aa9');
+        document.documentElement.style.setProperty('--thm-header-text', '#081828');
+        document.documentElement.style.setProperty('--thm-text', '#888');
+        document.documentElement.style.setProperty('--thm-menu-bg', 'transparent');
+        document.documentElement.style.setProperty('--thm-menu-color', '#fff');
+        document.documentElement.style.setProperty('--thm-footer-bg', '#081828');
+        document.documentElement.style.setProperty('--thm-footer-text', '#D2D6DC');
+    </script>
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        var base_url = 'index.html';
+        var csrfData = {"school_csrf_name":"cb72ff077a406f08ee1ba84c93cabeb6"};
+        $(function($) {
+            $.ajaxSetup({
+                cache: false,
+                data: csrfData
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container-md">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="uploads/app_image/logo-small.png" alt="Logo">
+                            </a>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="#home" class="page-scroll active" aria-label="Toggle navigation">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#features" class="page-scroll" aria-label="Toggle navigation">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#pricing" class="page-scroll" aria-label="Toggle navigation">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#faq" class="page-scroll" aria-label="Toggle navigation">Faq</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#contact" class="page-scroll" aria-label="Toggle navigation">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar collapse -->
+                            <div class="header-btn">
+                            <div class="button add-list-button">
+                                                                <a href="authentication/index.html" class="btn">Login</a>
+                                                            </div>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            </div>
+                        </nav>
+                        <!-- End Navbar -->
+                                        </div>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Slider Area -->
+    <section id="home" class="hero-area" style="background-image: url(assets/frontend/images/saas/17a219467c358709a32646cfb61e594b.png);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="hero-content">
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Make the smart choice for your school</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">Empower your school with a solution designed for success. Streamline management, enhance productivity, and simplify operations because smart schools make smart choices.</p>
+                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                        <a href="#features" class="btn"><i class='fas fa-globe'></i> Explore</a><a href="#pricing" class="btn btn-alt"><i class='fas fa-coins'></i> Plan Price</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+                        <img src="assets/frontend/images/saas/3577eca9ad264b455e3cf9674aafeae7.png" alt="#">
+                        <img class="overly" src="assets/frontend/images/saas/slider_over.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Slider Area -->
+
+    <!-- Start Features Area -->
+    <section id="features" class="features section" style="background-image: url(assets/frontend/images/saas/features-bg.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Empowering Schools to Deliver Excellence</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Revolutionize your school operations with ease! Ugbekub empowers schools to streamline processes, enhance efficiency, and deliver excellence—all in one intuitive platform.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
+                        <i class="fas fa-headphones"></i>
+                        <h3>Online Course Facilities</h3>
+                        <p>Teachers can create and upload course materials, including videos, notes, and assignments, directly to the platform. Students can access these resources anytime, anywhere, enabling flexible and self-paced learning.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
+                        <i class="fas fa-qrcode"></i>
+                        <h3>QR Code Attendance</h3>
+                        <p>Teachers can quickly mark attendance by scanning student QR codes, eliminating manual processes and reducing errors. Students simply present their unique QR code for instant check-in, making the process fast, efficient, and hassle-free.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
+                        <i class="fas fa-sitemap"></i>
+                        <h3>Affordable Subcription</h3>
+                        <p>Our flexible and budget-friendly subscription plans ensure every school, big or small, can access top-notch tools to simplify operations and enhance efficiency. Quality solutions at a price you’ll love!</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Easy Fees Management</h3>
+                        <p>From generating invoices to sending payment reminders and tracking transactions, everything is streamlined in one place. Ensure transparency, reduce errors, and save time for both administrators and parents.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
+                        <i class="fas fa-id-card-alt"></i>
+                        <h3>ID Card Generator</h3>
+                        <p>Our ID Card Generator allows you to design, personalize, and print cards directly from the platform, complete with photos, QR codes, and essential details. Fast, efficient, and perfect for enhancing security and organization!</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
+                        <i class="fas fa-headphones"></i>
+                        <h3>Online Payment Gateway</h3>
+                        <p>Parents can pay fees securely from anywhere using multiple payment options, while schools enjoy real-time tracking and automated receipts. Simplify transactions, reduce delays, and enhance convenience for everyone!</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+
+    <!-- Start Pricing Table Area -->
+    <section id="pricing" class="pricing-table section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Pricing</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Pricing Plan</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Flexible pricing plans tailored to fit your school’s needs—simple, transparent, and value-packed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                                <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="pp-plans">
+                        <div class="pp-plans-top">
+                                                    <div class="pp-plans-title">
+                                One Term Free Trial                            </div>
+                            <div class="pp-plans-price">
+                                <div class="pxp-plans-price-monthly">
+
+
+                                                        ₦0.0<span>/ 3 Monthly</span>
+                                                        </div>
+                            </div>
+                            <div class="pp-plans-list">
+                                <ul class="list-unstyled pricing-feature-list">
+                                    <li><i class="lni lni-user"></i>Student Limit : 500</li>
+                                    <li><i class="lni lni-user"></i>Parents Limit : 200</li>
+                                    <li><i class="lni lni-user"></i>Staff Limit : 100</li>
+                                    <li><i class="lni lni-user"></i>Teacher Limit : 50</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attendance</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Custom Domain</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Events</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Homework</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Hostel</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Human Resource</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Inventory</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Live Class</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Office Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Online Exam</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Student Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Transport</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <div class="pp-plans-bottom">
+                            <div class="pp-plans-cta button">
+                                                                    <button class="btn plans-purchase" data-id="1" data-loading-text="<i class='fas fa-spinner fa-spin'></i> Processing"> Choose a Plan</button>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pp-plans">
+                        <div class="pp-plans-top">
+                                                    <div class="pp-plans-title">
+                                Platinum                            </div>
+                            <div class="pp-plans-price">
+                                <div class="pxp-plans-price-monthly">
+
+
+                                                        ₦0.0<span>/  Lifetime</span>
+                                                        </div>
+                            </div>
+                            <div class="pp-plans-list">
+                                <ul class="list-unstyled pricing-feature-list">
+                                    <li><i class="lni lni-user"></i>Student Limit : 10000</li>
+                                    <li><i class="lni lni-user"></i>Parents Limit : 10000</li>
+                                    <li><i class="lni lni-user"></i>Staff Limit : 10000</li>
+                                    <li><i class="lni lni-user"></i>Teacher Limit : 10000</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attendance</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Custom Domain</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Events</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Homework</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Hostel</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Human Resource</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Inventory</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Live Class</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Office Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Online Exam</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Student Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Transport</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <div class="pp-plans-bottom">
+                            <div class="pp-plans-cta button">
+                                                                    <button class="btn plans-purchase" data-id="2" data-loading-text="<i class='fas fa-spinner fa-spin'></i> Processing"> Choose a Plan</button>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="pp-plans">
+                        <div class="pp-plans-top">
+                                                    <div class="pp-plans-title">
+                                Gold                            </div>
+                            <div class="pp-plans-price">
+                                <div class="pxp-plans-price-monthly">
+
+
+                                                        ₦0.0<span>/ 12 Monthly</span>
+                                                        </div>
+                            </div>
+                            <div class="pp-plans-list">
+                                <ul class="list-unstyled pricing-feature-list">
+                                    <li><i class="lni lni-user"></i>Student Limit : 1000</li>
+                                    <li><i class="lni lni-user"></i>Parents Limit : 500</li>
+                                    <li><i class="lni lni-user"></i>Staff Limit : 200</li>
+                                    <li><i class="lni lni-user"></i>Teacher Limit : 100</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Attendance</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Custom Domain</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Events</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Homework</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Hostel</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Human Resource</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Inventory</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Live Class</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Office Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Online Exam</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Student Accounting</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Transport</li>
+                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <div class="pp-plans-bottom">
+                            <div class="pp-plans-cta button">
+                                                                    <button class="btn plans-purchase" data-id="3" data-loading-text="<i class='fas fa-spinner fa-spin'></i> Processing"> Choose a Plan</button>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+        </div>
+        <div class="bg-ring-right"></div>
+    </section>
+    <!--/ End Pricing Table Area -->
+
+    <!-- Start Faq Area -->
+    <section class="faq section" id="faq">
+        <div class=container>
+            <div class=row>
+                <div class=col-12>
+                    <div class=section-title>
+                        <h3 class="wow zoomIn" data-wow-delay=.2s>Faq</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=.4s>Frequently Asked Questions</h2>
+                        <p class="wow fadeInUp" data-wow-delay=.6s>Find answers to common questions about our school management system. From features and pricing to customization and support, we've got you covered</p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class=col-12>
+                    <div class=accordion id=accordionExample>
+                                                <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading0">
+                                <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq0" aria-expanded="true" aria-controls=collapseOne>
+                                    <span class=title><span class="serial">1</span>What is Ugbekun?</span><i class="lni lni-plus"></i>
+                                </button>
+                            </h2>
+                            <div id="faq0" class="accordion-collapse collapse" aria-labelledby="heading0" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"><p><span xss=removed>Ugbekun is a comprehensive software solution designed to assist schools in managing their daily administrative and executive responsibilities. Built as a SaaS (Software as a Service) platform, it streamlines operations, fosters efficiency, and simplifies school management tasks.</span></p></div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq1" aria-expanded="" aria-controls=collapseOne>
+                                    <span class=title><span class="serial">2</span>Who can use Ugbekun?</span><i class="lni lni-plus"></i>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"><p><span xss=removed>Ugbekun is ideal for primary schools, secondary schools, and tertiary institutions looking to improve efficiency in their operations.</span></p></div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq2" aria-expanded="" aria-controls=collapseOne>
+                                    <span class=title><span class="serial">3</span>Is Ugbekun customizable for my school?</span><i class="lni lni-plus"></i>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"><p><span xss=removed>Yes, Ugbekun is highly customizable to fit the unique needs of each school. You can tailor features like grading systems, timetables, and user roles to match your school's requirements.</span></p></div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq3" aria-expanded="" aria-controls=collapseOne>
+                                    <span class=title><span class="serial">4</span>Is my school's data secure on Ugbekun?</span><i class="lni lni-plus"></i>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"><p><span xss=removed>Absolutely. Ugbekun employs advanced security measures, including: - Data Encryption: All sensitive information is encrypted in transit and at rest. - Multi-Factor Authentication (MFA): Ensures that only authorized users can access the platform. - Regular Backups: Your data is automatically backed up to prevent loss. - Compliance: Ugbekun adheres to global data protection standards like GDPR and Nigeria's NDPR.</span></p></div>
+                            </div>
+                        </div>
+                                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End faq Area -->
+
+    <!-- Start Contact Area -->
+    <section class="section call-action" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="contact-form">
+                        <form action="https://ugbekun2.metaspaceconsult.com/saas_website/send_email" class="contact-frm" method="post" accept-charset="utf-8">
+<input type="hidden" name="school_csrf_name" value="cb72ff077a406f08ee1ba84c93cabeb6" />                                                                                                                           
+                        <h3 class="mb-5">Contact Us</h3>
+                                                                        <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                            <input type="text" class="form-control" name="name" autocomplete="off" placeholder="Name *" value="">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                            <input type="text" class="form-control" name="email" autocomplete="off" placeholder="Email *" value="">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group wow fadeInUp" data-wow-delay=".4s">
+                            <input type="text" class="form-control" name="mobile" autocomplete="off" placeholder="Mobile *" value="">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group wow fadeInUp" data-wow-delay=".4s">
+                            <input type="text" class="form-control" name="subject" autocomplete="off"  placeholder="Subject  *" value="">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group wow fadeInUp" data-wow-delay=".6s">
+                            <textarea type="text" rows="5" class="form-control alert_settings" placeholder="Type Message *" name="message"></textarea>
+                            <span class="error"></span>
+                        </div>
+                        <div class="button wow fadeInUp" data-wow-delay=".8s">
+                            <button class="btn btn-alt" type="submit" data-loading-text="<i class='fas fa-spinner fa-spin'></i> Processing"><i class="fas fa-envelope"></i> Send Message</button>
+                        </div>
+                        </form>                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <h2 class="contact-title wow fadeInUp" data-wow-delay=".2s">Need Any Help? Call us anytime!</h2>
+                    <div class="contact-item-wrapper">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-phone"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Phone</h4>
+                                        <p>+234 808 351 2312</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item wow fadeInUp" data-wow-delay=".6s">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-envelope"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Email</h4>
+                                        <p>ugbekun@metaspaceconsult.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item wow fadeInUp" data-wow-delay=".8s">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-map-marker"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Address</h4>
+                                        <p>Before Wanmore Bakery, 23 Evbuomwan St, off Etete Road, GRA, Benin City 300102, Edo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call To Action Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-about">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="uploads/app_image/logo-small.png" alt="#">
+                                </a>
+                            </div>
+                            <p>Ugbekun: Simplifying School Management, Streamlining Success.</p>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>Quick Link</h3>
+                                    <ul>
+                                        <li><a href="#home" class="page-scroll active" aria-label="Toggle navigation"><i class="fas fa-angle-right"></i> Home</a></li>
+                                        <li><a href="#features" class="page-scroll" aria-label="Toggle navigation"><i class="fas fa-angle-right"></i> Features</a></li>
+                                        <li><a href="#pricing" class="page-scroll" aria-label="Toggle navigation"><i class="fas fa-angle-right"></i> Pricing</a></li>
+                                        <li><a href="#faq" class="page-scroll" aria-label="Toggle navigation"><i class="fas fa-angle-right"></i> Faq</a></li>
+                                        <a href="#contact" class="page-scroll" aria-label="Toggle navigation"><i class="fas fa-angle-right"></i> Contact</a>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link address">
+                                    <h3>Address</h3>
+                                    <ul>
+                                        <li class="clearfix"><i class="lni lni-map-marker"></i> <div style="margin-left: 47px;">Before Wanmore Bakery, 23 Evbuomwan St, off Etete Road, GRA, Benin City 300102, Edo</div></li>
+                                        <li class="clearfix"><i class="lni lni-phone"></i> +234 808 351 2312</li>
+                                        <li class="clearfix"><i class="lni lni-envelope"></i> ugbekun@metaspaceconsult.com</li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>Social Link</h3>
+                                    <ul class="social">
+                                        <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                                        <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                                        <li><a href="#"><i class="lni lni-instagram"></i></a></li>
+                                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                                        <li><a href="#"><i class="lni lni-youtube"></i></a></li>
+                                        <li><a href="#"><i class="lni lni-google"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="copyright-text">
+                        <div class="footer-copyright__content">
+                            <span>© 2025 Ugbekun School Management System</span>
+                        </div>
+                    </div>
+                    <div class="payment-logo">
+                        <img src="assets/frontend/images/saas/17520014723d3876e7f45548c1a0f713.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--/ End Footer Top -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/frontend/js/bootstrap.min.js"></script>
+    <script src="assets/frontend/js/wow.min.js"></script>
+    <script src="assets/frontend/js/tiny-slider.js"></script>
+    <script src="assets/frontend/js/glightbox.min.js"></script>
+    <script src="assets/frontend/js/saas_main.js"></script>
+    <script src="assets/vendor/select2/js/select2.full.min.js"></script>
+    <script src="assets/vendor/sweetalert/sweetalert.min.js"></script>
+</body>
+
+<!-- Mirrored from ugbekun2.metaspaceconsult.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Jun 2025 20:32:31 GMT -->
+</html>
+
+<!-- Modal -->
+<div class="modal fade" id="regModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">School Subscription</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://ugbekun2.metaspaceconsult.com/saas_website/register" class="school-reg frm-submit-data" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+<input type="hidden" name="school_csrf_name" value="cb72ff077a406f08ee1ba84c93cabeb6" />                                                         
+                <input type="hidden" name="package_id" value="" id="packageID">
+                <section class="card pg-fw mb-4 mt-2">
+                    <div class="card-body">
+                        <h5 class="chart-title mb-xs">Plan Summary</h5>
+                        <div class="mt-2">
+                            <ul class="sp-summary" id="summary">
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="school_name">School Name *</label>
+                            <input id="school_name" name="school_name" type="text" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="school_address">School Address *</label>
+                            <input id="school_address" name="school_address" type="text" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="photo">School Logo</label>
+                            <input class="form-control" type="file" accept="image/*" id="photo" name="logo_file">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="school_info">Message</label>
+                            <textarea name="message" id="message" rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="admin_name">Admin Name *</label>
+                            <input id="admin_name" name="admin_name" type="text" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender *</label>
+                            <select class="form-select" id="gender" name="gender" data-minimum-results-for-search='Infinity'>
+                                <option value="">Select a gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin_phone">Contact Number *</label>
+                            <input id="admin_phone" name="admin_phone" type="tel" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin_email">Contact Email *</label>
+                            <input name="admin_email" type="text" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin_password">Admin Login Username *</label>
+                            <input name="admin_username" type="text" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin_password">Admin Login Password *</label>
+                            <input name="admin_password" type="password" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin_password">Retype Password *</label>
+                            <input name="retype_admin_password" type="password" class="form-control" autocomplete="off">
+                            <span class="error"></span>
+                        </div>
+                        <div class="pp-plans-bottom">
+                            <div class="pp-plans-cta button">
+                                <button class="btn mb-4" data-id="1" type="submit" data-loading-text="<i class='fas fa-spinner fa-spin'></i> Processing"> Register & Payment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </form>            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#gender").select2({
+        width: "100%"
+    });
+
+    $("form.frm-submit-data").each(function(i, el) {
+        var $this = $(el);
+        $this.on('submit', function(e) {
+            e.preventDefault();
+            var btn = $this.find('[type="submit"]');
+            $.ajax({
+                url: $(this).attr('action'),
+                type: "POST",
+                data: new FormData(this),
+                dataType: "json",
+                contentType: false,
+                processData: false,
+                cache: false,
+                beforeSend: function() {
+                    btn.button('loading');
+                },
+                success: function(data) {
+                    $('.error').html("");
+                    if (data.status == "fail") {
+                        $.each(data.error, function(index, value) {
+                            $this.find("[name='" + index + "']").parents('.form-group').find('.error').html(value);
+                        });
+                    } else {
+                        if (data.url) {
+                            window.location.href = data.url;
+                        } else if (data.status == "access_denied") {
+                            window.location.href = base_url + "dashboard";
+                        } else {
+                            location.reload(true);
+                        }
+                    }
+                },
+                complete: function() {
+                    btn.button('reset');
+                },
+                error: function() {
+                    btn.button('reset');
+                }
+            });
+        });
+    });
+</script>
